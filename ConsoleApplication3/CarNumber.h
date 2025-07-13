@@ -12,7 +12,7 @@ class CarNumber
 	static char SecondLetter;
 
 public:
-	CarNumber(string);
+	CarNumber(string region);
 	string getNumber()const;
 	static void showStatic();
 

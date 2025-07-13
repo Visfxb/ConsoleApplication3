@@ -1,7 +1,10 @@
-﻿#include "CarNumber.h"
+﻿#include "MyMath.h"
+#include "CarNumber.h"
 #include <vector>
-#include "DIA.h"
-#include "MyMath.h"
+
+int CarNumber::counter = 9997;
+char CarNumber::firstLetter = 'A';
+char CarNumber::SecondLetter = 'Z';
 
 int main() {
     cout << "PI: " << MyMath::PI() << endl;
